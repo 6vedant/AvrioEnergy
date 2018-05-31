@@ -91,15 +91,19 @@ button {
   max-width: 240px;
 }
 
-#feature-first,
 #about-us {
+  background: #ffffff;
+  padding-bottom: 0;
+}
+
+#feature-first {
   background: linear-gradient(168deg, #ffffff 55%, #00ffad 0);
   padding: 30px 0;
 }
 
 #feature-last {
   background: #00ffad;
-  padding: 30px 0;
+  padding: 45px 0;
 }
 ul > li {
   font-size: 20px;
@@ -177,4 +181,8 @@ ul > li {
   #banner h1 {
     font-size: 3.6rem;
   }
+}
+
+a.nav-item.nav-link {
+  font-size: 18px;
 }

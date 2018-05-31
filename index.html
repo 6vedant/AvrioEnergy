@@ -7,6 +7,7 @@
     <title>Aviro Energy</title>
     <meta name="description" content="Aviro Energy for next generation">
     <link rel="icon" href="img/favicon.png" sizes="32x32" type="image/png">
+    <meta name="author" content="Arnav Puri">
     <!-- custom.css -->
     <link rel="stylesheet" href="css/custom.css">
     <!-- bootstrap.min.css -->
@@ -30,15 +31,16 @@
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse ml-0" id="nav-menu">
-                <div class="navbar-nav">
+            <div class="collapse navbar-collapse row justify-content-end" id="nav-menu">
+                <div class="navbar-nav col-6 align-self-end">
                     <a class="nav-item nav-link active" href="#">Home
                         <span class="sr-only">(current)</span>
                     </a>
                     <a class="nav-item nav-link" href="#about-us">About</a>
-                    <a class="nav-item nav-link" href="#feature-last">Product</a>
-                    <a class="nav-item nav-link disabled" href="#">Login</a>
+                    <a class="nav-item nav-link" href="#feature-first">Product</a>
+                    <a class="nav-item nav-link" href="signin.html">Login</a>
                     <a class="nav-item nav-link" href="#contact">Contact Us</a>
+                    </ul>
                 </div>
             </div>
         </nav>
@@ -74,7 +76,7 @@
         </div>
     </div>
     <!-- feature (green background) -->
-    <div class="jumbotron jumbotron-fluid feature" id="feature-last">
+    <div class="jumbotron jumbotron-fluid feature" id="feature-first">
         <div data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000" data-aos-once="true" style="margin-bottom: 12px">
             <h2 class="text-center font-weight-bold my-5">SmartSol</h2>
         </div>
@@ -97,7 +99,7 @@
             </div>
         </div>
     </div>
-    <div class="jumbotron jumbotron-fluid feature" id="feature-consumers">
+    <div class="jumbotron jumbotron-fluid feature" id="feature-last">
         <div class="container">
             <div class="row justify-content-between text-center text-md-left">
                 <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" class="col-md-6 align-self-center flex-md-first">
@@ -210,7 +212,7 @@
         </div>
     </div> -->
     <!-- contact -->
-    <div class="jumbotron jumbotron-fluid" id="contact" style="background-image: url(img/contact-bk.jpg);">
+    <div class="jumbotron" id="contact" style="background-image: url(img/contact-bk.jpg);">
         <div class="container my-5">
             <div class="row justify-content-between">
                 <div class="col-md-6 text-white">
@@ -220,13 +222,12 @@
                         <br> augue disputando in vim. Erat fugit sit at, ius lorem.
                     </p> -->
                     <ul class="list-unstyled">
-                        <li>Email : company_email@com</li>
-                        <li>Phone : 361-688-5824</li>
-                        <li>Address : 4826 White Avenue, Corpus Christi, Texas</li>
+                        <li>Email : ankit@avrioenergy.in</li>
+                        <li>Phone : +91-8779 648734</li>
                     </ul>
                 </div>
                 <div class="col-md-6">
-                    <form>
+                    <form action="https://formspree.io/ankit@avrioenergy.in" method="POST">
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="name">Your Name</label>
